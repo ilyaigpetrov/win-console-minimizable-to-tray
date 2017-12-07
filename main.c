@@ -120,7 +120,7 @@ int main(void) {
       WINEVENT_INCONTEXT
     );
 
-    puts("Hello from terminal!");
+    puts("Minimize me!");
 
     while (GetMessage(&msg, NULL, 0, 0)) {
       TranslateMessage(&msg);
