@@ -12,9 +12,9 @@ Console opens, you press minimize, it minimizes to tray, you click icon, it maxi
 
 0. Optionally in bash/msys/mingw: `./deutf.sh`
 1. `rc.exe resource.rc`
-2. `cl.exe main.c /link user32.lib shell32.lib gdi32.lib resource.res` (or just `compile.cmd`)
+2. `cl.exe main.c /link user32.lib shell32.lib gdi32.lib resource.res` or just `.\compile.cmd`)
 
 # Compile for MinGW
 
-1. `windres resource.utf8.rc -O coff -o resource.res`
+1. `windres resource.utf8.rc -O coff -o resource.res` or just `./windres.sh`
 2. `gcc main.c resourse.res -o main.exe`
