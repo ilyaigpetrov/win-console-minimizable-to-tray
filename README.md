@@ -16,4 +16,4 @@ Console opens, you press minimize, it minimizes to tray, you click icon, it maxi
 # Compile for MinGW
 
 1. `windres resource.utf8.rc -O coff -o resource.res`
-2. `gcc main.c resourse.res`
+2. `gcc main.c resourse.res -o main.exe`
