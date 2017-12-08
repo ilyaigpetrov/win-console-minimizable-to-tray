@@ -10,6 +10,7 @@ Console opens, you press minimize, it minimizes to tray, you click icon, it maxi
 
 # Compile for VisualStudio
 
+0. Optionally in bash/msys/mingw: `./deutf.sh`
 1. `rc.exe resource.rc`
 2. `cl.exe main.c /link user32.lib shell32.lib gdi32.lib resource.res` (or just `compile.cmd`)
 
